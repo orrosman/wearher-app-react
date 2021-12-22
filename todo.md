@@ -6,16 +6,11 @@ Basic Todo list to track progress
 
 - [ ] Create components
 
-  - [] Component A
-  - [] Component B
-    - [] Part of component
+  - [] Cities & Countries dropdown + search
+  - [] Current Weather
 
-- [ ] Connect relevant components
-
-  - [ ] Component A -> Component B
-
-- [ ] Check useability
+- [ ] Setup Redux Thunks (state management)
+- [ ] Create API calls for wether forecast
+  - [ ] Update state of Current Weather
 
 ### Done ✓
-
-- [✔] A task
