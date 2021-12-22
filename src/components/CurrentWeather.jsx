@@ -17,6 +17,7 @@ const CurrentWeather = () => {
 			{city.weatherData ? <Graph weatherData={city.weatherData} /> : null}
 
 			<MapContainer
+				key={position}
 				center={position}
 				zoom={9}
 				scrollWheelZoom={true}
@@ -27,7 +28,7 @@ const CurrentWeather = () => {
 					marginBottom: '10em',
 				}}
 			>
-				<Map position={position} />
+				<Map position={{ lat, long }} />
 			</MapContainer>
 		</div>
 	);
