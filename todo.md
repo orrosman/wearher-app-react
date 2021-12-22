@@ -4,13 +4,13 @@ Basic Todo list to track progress
 
 ### Todo
 
-- [ ] Create components
+- [✔] Create components
 
   - [✔] Cities dropdown
   - [✔] Current Weather
 
-- [ ] Setup Redux Thunks (state management)
-- [ ] Create API calls for wether forecast
+- [✔] Setup Redux Thunks (state management)
+- [✔] Create API calls for wether forecast
   - [✔] Update state of Current Weather
 
 ### Done ✓

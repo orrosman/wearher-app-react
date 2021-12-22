@@ -1,12 +1,11 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import cities from '../utils/cities.json';
 import { changeCity } from '../state/actions/weather';
 
 const CityDropdown = () => {
-	const city = useSelector((state) => state.city);
-
 	const dispatch = useDispatch();
+
 	return (
 		<DropdownButton
 			title="Select City"

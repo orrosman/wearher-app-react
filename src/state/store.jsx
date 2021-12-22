@@ -1,9 +1,10 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
 import weatherReducer from './reducers/weather';
+import weatherMiddleware from './middlewares/weather';
 
-const initialState = {
-	city: { name: 'New York', long: -74.01, lat: 40.71 },
-};
-
-const store = createStore(weatherReducer, initialState);
+const store = createStore(
+	weatherReducer,
+	applyMiddleware(thunk, weatherMiddleware)
+);
 export default store;

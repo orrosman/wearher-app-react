@@ -6,8 +6,8 @@ const Footer = () => {
 	return (
 		<footer
 			className="
-			position-absolute
-			bottom-0
+			mt-3
+			fixed-bottom
 			start-50
 			translate-middle-x
 			bg-dark
