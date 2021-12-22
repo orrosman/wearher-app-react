@@ -1,0 +1,7 @@
+[
+	{ "name": "New York", "long": -74.01, "lat": 40.71 },
+	{ "name": "Paris", "long": 2.351, "lat": 48.8567 },
+	{ "name": "Jerusalem", "long": 35.2007, "lat": 31.7857 },
+	{ "name": "London", "long": -0.1262, "lat": 51.5002 },
+	{ "name": "Tokyo", "long": 139.6823, "lat": 35.6785 }
+]

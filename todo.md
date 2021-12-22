@@ -6,7 +6,7 @@ Basic Todo list to track progress
 
 - [ ] Create components
 
-  - [] Cities & Countries dropdown + search
+  - [✔] Cities dropdown
   - [] Current Weather
 
 - [ ] Setup Redux Thunks (state management)
