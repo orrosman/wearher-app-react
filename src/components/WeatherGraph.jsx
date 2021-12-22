@@ -9,7 +9,7 @@ import {
 	Tooltip,
 	Legend,
 } from 'chart.js';
-import { Line } from 'react-chartjs-2';
+import { Chart, Line } from 'react-chartjs-2';
 
 ChartJS.register(
 	CategoryScale,
@@ -28,10 +28,9 @@ const Graph = ({ weatherData }) => {
 			legend: {
 				position: 'top',
 			},
-			title: {
-				display: true,
-				text: 'The Weather',
-			},
+		},
+		interaction: {
+			mode: 'index',
 		},
 	};
 

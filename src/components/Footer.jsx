@@ -6,16 +6,14 @@ const Footer = () => {
 	return (
 		<footer
 			className="
-			mt-3
 			fixed-bottom
-			start-50
-			translate-middle-x
+			bottom-0
 			bg-dark
 			text-center text-white
 			w-100
 		"
 		>
-			<div className="container p-3 pb-0">
+			<div className="container p-2 pb-0">
 				<a
 					className="btn btn-outline-light btn-floating m-1"
 					href="https://www.linkedin.com/in/orrosman/"

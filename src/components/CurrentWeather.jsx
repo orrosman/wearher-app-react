@@ -23,9 +23,8 @@ const CurrentWeather = () => {
 				scrollWheelZoom={true}
 				style={{
 					height: '20vh',
-					width: '50wh',
 					marginTop: '3em',
-					marginBottom: '10em',
+					marginBottom: '9em',
 				}}
 			>
 				<Map position={{ lat, long }} />
