@@ -1,17 +1,12 @@
 import React from 'react';
-import exampleLogo from '../assets/logo.svg';
+import weatherLogo from '../assets/weather-logo.png';
 
 const Header = () => {
 	return (
-		<nav className="navbar navbar-dark bg-dark">
+		<nav className="navbar navbar-dark bg-dark p-1">
 			<i className="navbar-brand mx-auto text-center">
-				<img
-					src={exampleLogo}
-					width="100"
-					height="100"
-					alt="example logo"
-				></img>
-				<div>header text here</div>
+				<img src={weatherLogo} width="80" height="80" alt="weather logo"></img>
+				<div>Weather Forecast</div>
 			</i>
 		</nav>
 	);
